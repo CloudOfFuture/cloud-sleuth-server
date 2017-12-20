@@ -1,8 +1,10 @@
 server:
-  port: 9000
+  port: 9411
 spring:
   application:
     name: cloud-sleuth-server
+  sleuth:
+    enabled: false
 eureka:
   client:
     service-url:
